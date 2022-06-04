@@ -1,0 +1,1 @@
+python3 track.py --source ./istockphoto-456878070-640_adpp_is.mp4 --yolo_model best_all.pt --classes 0 2 --save-vid
