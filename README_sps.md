@@ -1,0 +1,8 @@
+- cài đặt anaconda trước ( youtube cho nhanh nhé :v)
+- cài đặt xong, tạo môi trường conda: conda create -n sps
+- Kích hoạt  môi trường vừa tạo: conda activate sps
+- cd đến thư mục SmartParkingSystem
+- gõ lệnh: pip install -r requirements.txt (để cài các thư viện và package cần thiết)
+- sau khi cài đặt xong, chạy thử code bằng lệnh: python3 track.py --source ./istockphoto-456878070-640_adpp_is.mp4 --yolo_model best_all.pt --classes 0 2 --save-vid
+- xem kết quả trong thư mục "runs/track" (tìm tên thư mục kết quả vừa chạy xong)
+- (nếu trong quá trình chạy, thiếu package hoặc thư viện nào có thể dùng lệnh "pip install tên_thư_viện" để cài thêm)
